@@ -81,7 +81,7 @@ let students = [
 
 
 let sorted = students.sort((a, b) => a.age - b.age);
-console.log(...sorted);
+console.log(sorted);
 
 
 let single = [];
