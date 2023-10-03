@@ -97,7 +97,7 @@ console.log("SINGLE STUDENTS: " + single);
 console.log("DOUBLE STUDENTS: " + double);
 
 
-let old = [];
+let old = students[0];
 students.filter((student) => {
   if (student.age > old.age) {
     old = student;
@@ -106,7 +106,7 @@ students.filter((student) => {
 console.log("The oldest student: " + old.name, old.age);
 
 
-let young = [];
+let young = students[0];
 students.filter((student) => {
   if (student.age < young.age) {
     young = student;
