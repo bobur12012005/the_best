@@ -98,13 +98,13 @@ students.filter((student) => {
     old = student;
 }
 });
-console.log(old.name, old.age);
+console.log("The oldest student: " + old.name, old.age);
 
 
-let yang = students[0];
+let young = students[0];
 students.filter((student) => {
-  if (student.age < yang.age) {
-    yang = student;
+  if (student.age < young.age) {
+    young = student;
 }
 });
-console.log(yang.name, yang.age);
+console.log("The youngest student: " + young.name, young.age);
